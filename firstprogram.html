@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="firstprogramstyle.css">
+</head>
+<body>
+
+    <div class="sidebar">
+        <div class="top">
+            <div class="logo">
+                <i class="bx bxl-codepen"></i>
+                <span>CodeCommerse</span>
+            </div>
+            <i class="bx bx-menu " id="btn"></i>
+        </div>
+        <div class="user">
+            <img src="D:\epifaneiaprinformat\panagiotis\img\revit attempts\vulture1.png" alt="prof" id="user-image">
+            <div>
+                <p class="bold">ZioG P.</p>
+                <p>Admin</p>
+            </div>
+        </div>
+        <ul>
+            <li><a href="">
+                <i class="bx bxs-grid-alt"></i>
+                <span class="nav-item">Dashboard</span>
+            </a>
+            <span class="tooltoip">Dashboard</span>
+            </li>
+            <li><a href="">
+                <i class="bx bxs-shopping-bag"></i>
+                <span class="nav-item">Products</span>
+            </a>
+            <span class="tooltoip">Products</span>
+            </li>
+            <li><a href="">
+                <i class="bx bx-list-check"></i>    
+                <span class="nav-item">Categories</span>
+            </a>
+            <span class="tooltoip">Categories</span>
+            </li>
+            <li><a href="">
+                <i class="bx bxs-food-menu"></i>
+                <span class="nav-item">Orders</span>
+            </a>
+            <span class="tooltoip">Orders</span>
+            </li>
+            <li><a href="">
+                <i class="bx bxs-body"></i>
+                <span class="nav-item">Customers</span>
+            </a>
+            <span class="tooltoip">Customers</span>
+            </li>
+            <li><a href="">
+                <i class="bx bxs-location-plus"></i>
+                <span class="nav-item">Shipping</span>
+            </a>
+            <span class="tooltoip">Shipping</span>
+            </li>
+            <li><a href="">
+                <i class="bx bx-cog"></i>
+                <span class="nav-item">Settings</span>
+            </a>
+            <span class="tooltoip">Settings</span>
+            </li>
+            <li><a href="">
+                <i class="bx bx-log-out"></i>
+                <span class="nav-item">LogOut</span>
+                </a>
+             <span class="tooltoip">LogOut</span>
+            </li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <div class="container">
+            <h1>Hahahaaha</h1>
+        </div>
+    </div>
+
+</body>
+<script>
+    let btn = document.querySelector('#btn')
+    let sidebar = document.querySelector('.sidebar')
+
+    btn.onclick = function () {
+        sidebar.classList.toggle('active')
+    }
+</script>
+</html>
