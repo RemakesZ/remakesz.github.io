@@ -28,6 +28,9 @@ body{
     margin-top: 4vh;
     border-radius: 3px 30px;
 }
+.containerSM{
+    display: flex;
+}
 .sidebar {
     position: relative;
     left: 0;
