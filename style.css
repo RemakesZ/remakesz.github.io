@@ -43,9 +43,7 @@ body{
     padding: .4rem .8rem;
     background: linear-gradient(110deg, black 20%, rgb(77, 1, 1) 100%);
     z-index: 5;
-    display: flex;
-    flex-direction: row;
-    
+    display: flex;    
 }
 #slogan {
     margin-left: 100px;
@@ -53,11 +51,15 @@ body{
 }
 .slogandiv{
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 .sidebar ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: row;
     
 }
 .sidebar ul li {
@@ -73,12 +75,8 @@ body{
     background-color: brown;
     border: solid white 1px;
     padding: 1rem 20px 1rem 20px;
-    border-radius: 0.8rem;
-    justify-content: space-around;
+    border-radius: 0.5rem;
     display: flex;
-    align-items: center;
-    box-sizing: border-box;
-
 }
 .main {
     margin-left: 10px;
