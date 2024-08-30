@@ -44,6 +44,9 @@ body{
     margin-left: 100px;
     line-height: 50px;
 }
+.slogandiv{
+    text-align: center;
+}
 .sidebar ul{
     list-style-type: none;
     margin: 0;
@@ -76,5 +79,5 @@ body{
     z-index: 6;
     background-color: lightgrey;
     position: relative;
-    
+    flex-grow: 1;
 }
