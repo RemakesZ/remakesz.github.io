@@ -37,6 +37,7 @@ body{
     padding: .4rem .8rem;
     background: linear-gradient(110deg, black 20%, rgb(77, 1, 1) 100%);
     z-index: 5;
+    display: flex;
     
 }
 #slogan {
