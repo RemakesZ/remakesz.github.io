@@ -37,6 +37,10 @@ body{
     padding: .4rem .8rem;
     background: linear-gradient(110deg, black 20%, rgb(77, 1, 1) 100%);
     z-index: 5;
+    
+}
+#slogan {
+    margin-left: 100px;
 }
 .sidebar ul{
     list-style-type: none;
@@ -67,4 +71,5 @@ body{
 .main {
     margin-left: 260px;
     padding-top: 100px;
+    z-index: 5;
 }
