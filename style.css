@@ -20,6 +20,8 @@ body{
     display: flex;
     align-items: center;
     box-sizing: border-box;
+    display: flex;
+    flex-grow: 1;
 }
 .containerSM {
     display: flex;
@@ -78,7 +80,7 @@ body{
 
 }
 .main {
-    margin-left: 60px;
+    margin-left: 10px;
     padding-top: 100px;
     z-index: 6;
     background-color: lightgrey;
