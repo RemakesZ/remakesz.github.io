@@ -5,9 +5,6 @@
 }
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
-    flex-direction: column; /* Keeps the header at the top */
-    min-height: 100vh;
 }
 .header {
     position: relative;
@@ -23,6 +20,10 @@ body{
     display: flex;
     align-items: center;
     box-sizing: border-box;
+}
+.containerSM {
+    display: flex;
+    flex-grow: 1;
 }
 #sidebarlogo {
     height: 80px;
@@ -77,7 +78,7 @@ body{
 
 }
 .main {
-    margin-left: 260px;
+    margin-left: 60px;
     padding-top: 100px;
     z-index: 6;
     background-color: lightgrey;
