@@ -5,6 +5,7 @@
 }
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
 }
 .header {
     position: relative;
@@ -27,9 +28,6 @@ body{
     object-fit: cover;
     margin-top: 4vh;
     border-radius: 3px 30px;
-}
-.containerSM{
-    display: flex;
 }
 .sidebar {
     position: relative;
