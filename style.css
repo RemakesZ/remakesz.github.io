@@ -31,7 +31,7 @@ body{
 }
 .logo-link {
     display: inline-block;
-    background-image: url(/Rimg/1.png);
+    background-image: url(/assets/Rimg/1.png);
     background-position: 35% 30%;
     background-repeat: no-repeat;
     background-size: 115% ;
