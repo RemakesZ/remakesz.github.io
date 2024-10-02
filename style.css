@@ -34,7 +34,7 @@ body{
     background-image: url(/assets/Rimg/1.png);
     background-position: 35% 30%;
     background-repeat: no-repeat;
-    background-size: 105% ;
+    background-size: 95% ;
     height: 70px;
     width: 220px;
     text-decoration: none;
@@ -93,13 +93,10 @@ body{
     align-items: center;
 }
 .sidebar ul li a i {
-    display: flex;
-    margin-right: 10px;
-    align-items: left;
+        margin-right: 10px;
   }
   .sidebar ul li a span {
-    display: flex;
-    align-items: center;
+
   }
 .main {
     margin-left: 10px;
