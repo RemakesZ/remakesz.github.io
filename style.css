@@ -81,6 +81,8 @@ body{
 }
 .sidebar ul li a {
     font-size: 1.8rem;
+    width: 180px; /* Fixed width for all buttons */
+    height: 50px;
     text-decoration: none;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
