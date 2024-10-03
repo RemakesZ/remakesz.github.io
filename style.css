@@ -92,6 +92,7 @@ body{
     justify-content: center;
     align-items: center;
     transition: all 0.5s ease-in-out;
+    white-space: nowrap;
 }
 .sidebar ul li a i {
         margin-right: 10px;
@@ -101,6 +102,12 @@ body{
     color: orange;
     background-color: rgb(165, 0, 0);
   }
+  .sidebar ul li a i,
+.sidebar ul li a span {
+  vertical-align: middle;
+  margin-right: 8px; /* Spacing between icon and text */
+  transition: none; /* Disable animation for individual elements */
+}
 .main {
     margin-left: 10px;
     padding-top: 100px;
