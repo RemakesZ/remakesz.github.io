@@ -104,9 +104,8 @@ body{
   }
   .sidebar ul li a i,
 .sidebar ul li a span {
-  vertical-align: middle;
-  margin-right: 8px; /* Spacing between icon and text */
-  transition: none; /* Disable animation for individual elements */
+    pointer-events: none; /* Prevent child elements from being hoverable */
+
 }
 .main {
     margin-left: 10px;
