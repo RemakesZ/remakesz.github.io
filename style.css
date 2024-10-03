@@ -77,7 +77,7 @@ body{
 }
 .sidebar ul li {
     margin-left: 0rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 .sidebar ul li a {
     font-size: 1.8rem;
@@ -91,12 +91,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.5s ease-in-out;
 }
 .sidebar ul li a i {
         margin-right: 10px;
   }
-  .sidebar ul li a span {
-
+  .sidebar ul li a :hover {
+    transform: scale(1.05);
+    color: orange;
+    background-color: rgb(165, 0, 0);
   }
 .main {
     margin-left: 10px;
