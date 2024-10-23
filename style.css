@@ -6,6 +6,7 @@ body, html {
   }  
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-y: hidden
 }
 .header {
     position:top;
@@ -28,7 +29,7 @@ body{
 .containerSM {
     display: flex;
     flex-grow: 1;
-    height: 100vh;
+    min-height: 100vh;
 }
 .logo-link {
     position: top left;
