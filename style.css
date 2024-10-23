@@ -8,7 +8,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .header {
-    position: relative;
+    position:top;
     top: 0;
     height: 100px;
     width: 100%;
@@ -30,15 +30,18 @@ body{
     flex-grow: 1;
 }
 .logo-link {
+    position: top left;
     display: inline-block;
     background-image: url(/assets/Rimg/1.png);
-    background-position: 35% 30%;
+    background-position: 35% 31.8%;
     background-repeat: no-repeat;
-    background-size: 80% ;
+    background-size: 105% ;
     height: 90px;
-    width: 260px;
+    width: 215px;
     text-decoration: none;
     margin-top: 18px;
+    margin-left: 5px;
+    margin-right: 0;
 }
 #slogan {
     line-height: 50px;
@@ -114,7 +117,6 @@ body{
 }
 .main {
     margin-left: 10px;
-    padding-top: 100px;
     z-index: 6;
     background-color: lightgrey;
     position: relative;
