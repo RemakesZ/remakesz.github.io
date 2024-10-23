@@ -28,6 +28,7 @@ body{
 .containerSM {
     display: flex;
     flex-grow: 1;
+    height: 100vh;
 }
 .logo-link {
     position: top left;
