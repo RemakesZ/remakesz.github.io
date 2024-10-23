@@ -10,7 +10,7 @@ body{
 .header {
     position:top;
     top: 0;
-    height: 100px;
+    height: 130px;
     width: 100%;
     background-color: maroon;
     text-align: center;
@@ -116,9 +116,11 @@ body{
 
 }
 .main {
-    margin-left: 10px;
     z-index: 6;
     background-color: lightgrey;
     position: relative;
     flex-grow: 1;
+}
+.content {
+    margin-left: 10px;
 }
