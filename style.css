@@ -56,7 +56,7 @@ body{
     align-items: center;
 }
 .sidebar {
-    position: relative;
+    position: sticky;
     left: 0;
     top: 0;
     height: 100vh;
@@ -117,10 +117,11 @@ body{
 }
 .main {
     z-index: 6;
-    background-color: lightgrey;
+    overflow-y: auto; /* Scroll when content overflows */
     position: relative;
     flex-grow: 1;
 }
 .content {
+    background-color: lightgrey;
     margin-left: 10px;
 }
