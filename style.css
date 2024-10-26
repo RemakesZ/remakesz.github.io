@@ -50,12 +50,12 @@ body{
     margin-right: 75px;
 }
 .slogandiv{
-    right: 0;
     text-align: center;
     display: flex;
     flex-grow: 1;
     justify-content: center;
     align-items: center;
+    margin: auto;
 }
 .sidebar {
     position: sticky;
