@@ -133,7 +133,8 @@ body{
     border-radius: 50%;
     font-size: 3rem;
     transition: all 0.5s ease-in-out;
-    padding: 50%;
+    padding: 6%;
+    margin: 0 10px 0 10px;
 }
 #menuicon :hover {
     transform: scale(1.05);
@@ -141,3 +142,19 @@ body{
     background-color: rgb(165, 0, 0);
     border-color: orange;
   }
+  chill
+  #accounticon {
+    background-color: rgb(113, 0, 0);
+    border-radius: 50%;
+    font-size: 3rem;
+    transition: all 0.5s ease-in-out;
+    padding: 6%;
+    margin: 0 10px 0 10px;
+}
+#accounticon :hover {
+    transform: scale(1.05);
+    color: orange;
+    background-color: rgb(165, 0, 0);
+    border-color: orange;
+  }
+  
