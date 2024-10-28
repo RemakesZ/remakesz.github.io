@@ -105,7 +105,7 @@ body{
 .sidebar ul li a i {
         margin-right: 10px;
   }
-  .sidebar ul li :hover {
+  .sidebar ul li, #menuicon :hover {
     transform: scale(1.05);
     color: orange;
     background-color: rgb(165, 0, 0);
@@ -127,4 +127,9 @@ body{
 .content {
     background-color: lightgrey;
     margin-left: 10px;
+}
+#menuicon {
+    background-color: rgb(106, 31, 31);
+    border-radius: 50%;
+    font-size: 1.35rem;
 }
