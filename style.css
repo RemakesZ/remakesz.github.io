@@ -41,7 +41,7 @@ body{
     height: 90px;
     width: 215px;
     text-decoration: none;
-    margin-top: 18px;
+    margin-top: 10px;
     margin-left: 5px;
     margin-right: 0;
 }
@@ -129,12 +129,12 @@ body{
     margin-left: 10px;
 }
 #menuicon {
-    background-color: rgb(113, 0, 0);
+    background-color: brown;
     border-radius: 50%;
     font-size: 3rem;
     transition: all 0.5s ease-in-out;
     padding: 6%;
-    margin: 0 10px 0 10px;
+    margin:  8px 0 8px 0;
 }
 #menuicon :hover {
     transform: scale(1.05);
@@ -143,12 +143,12 @@ body{
     border-color: orange;
   }
   #accounticon {
-    background-color: rgb(113, 0, 0);
+    background-color: brown;
     border-radius: 50%;
     font-size: 3rem;
     transition: all 0.5s ease-in-out;
     padding: 6%;
-    margin: 0 10px 0 10px;
+    margin:  8px 0 8px 0;
 }
 #accounticon :hover {
     transform: scale(1.05);
