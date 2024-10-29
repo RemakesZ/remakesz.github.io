@@ -135,6 +135,7 @@ body{
     transition: all 0.5s ease-in-out;
     padding: 6%;
     margin:  8px 10px 8px 10px;
+    border: 1px white;
 }
 
   /*#accounticon {
@@ -145,7 +146,7 @@ body{
     padding: 6%;
     margin:  8px 10px 8px 10px;
 }*/
-.top i :hover {
+.top i:hover {
     transform: scale(1.05);
     color: orange;
     background-color: rgb(165, 0, 0);
