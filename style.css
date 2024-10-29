@@ -128,29 +128,24 @@ body{
     background-color: lightgrey;
     margin-left: 10px;
 }
-#menuicon {
+.top i {
     background-color: brown;
     border-radius: 50%;
     font-size: 3rem;
     transition: all 0.5s ease-in-out;
     padding: 6%;
-    margin:  8px 0 8px 0;
+    margin:  8px 10px 8px 10px;
 }
-#menuicon :hover {
-    transform: scale(1.05);
-    color: orange;
-    background-color: rgb(165, 0, 0);
-    border-color: orange;
-  }
-  #accounticon {
+
+  /*#accounticon {
     background-color: brown;
     border-radius: 50%;
     font-size: 3rem;
     transition: all 0.5s ease-in-out;
     padding: 6%;
-    margin:  8px 0 8px 0;
-}
-#accounticon :hover {
+    margin:  8px 10px 8px 10px;
+}*/
+.top i :hover {
     transform: scale(1.05);
     color: orange;
     background-color: rgb(165, 0, 0);
