@@ -143,3 +143,39 @@ body{
     background-color: rgb(165, 0, 0);
     border-color: orange;
   }
+  #seeStock {
+    display: block;
+    width: 250px;
+    height: 100px;
+    background-color: brown;
+  }
+  /* Basic sidebar styling by chatgpt*/
+.sidebar {
+    width: 250px;
+    transition: transform 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        transform: translateX(-100%);
+    }
+    .sidebar.show {
+        transform: translateX(0);
+    }
+
+    .sidebar .logo {
+        display: none;
+    }
+    .sidebar.show .logo {
+        display: block;
+    }
+
+    #menuButton {
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        font-size: 24px;
+        cursor: pointer;
+        z-index: 1000;
+    }
+}
