@@ -1,6 +1,9 @@
 function togglesidebar() {
     const togglesidebar =document.getElementById("sidebar");
-    sidebar.classlist.toggle("show");
-    console.log("click detected");
-    
+    if (sidebar.style.width === '0px') {
+        sidebar.style.width = '230px'
+    }
+    else{
+        sidebar.style.width = 0
+    }
 }
