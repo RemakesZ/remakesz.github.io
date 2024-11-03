@@ -4,12 +4,12 @@ function togglesidebar() {
     const sidebarButtonDesc = document.querySelectorAll (".sidebar ul li span")
     if (sidebar.style.width === '0px') {
         sidebar.style.width = '230px'
-        span.style.opacity = '1';
+        sidebarButtonDesc.style.opacity = '1';
 
         
     }
     else{
         sidebar.style.width = 0
-        span.style.opacity = '0';
+        sidebarButtonDesc.style.opacity = '0';
         }
 }
