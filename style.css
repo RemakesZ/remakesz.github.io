@@ -147,10 +147,16 @@ body{
     border-color: orange;
   }
   #seeStock {
+    margin-top: 10px;
+    margin-left: 10px;
     display: block;
     width: 250px;
     height: 100px;
     background-color: brown;
+    border-radius: 5px;
+  }
+  .text {
+    margin-left: 10px;
   }
   /* Basic sidebar styling by chatgpt
 .sidebar {
