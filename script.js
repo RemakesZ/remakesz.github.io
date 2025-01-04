@@ -6,7 +6,7 @@ function togglesidebar() {
         sidebar.style.width = '230px';
         sidebarButtons.style.borderRadius = "50%";
         sidebarButtonDesc.forEach((span) => {
-            span.style.display = span.style.display === "inline-block" ? "block" : "inline-block";
+            span.style.display = span.style.display === "flex" ? "block" : "flex";
               });
     }
     else{
