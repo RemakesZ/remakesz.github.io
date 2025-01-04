@@ -118,7 +118,7 @@ body{
 .sidebar ul li a span {
     pointer-events: none; 
     line-height: 50px;
-    display: flex;
+    display: inline;
 
 }
 .main {
