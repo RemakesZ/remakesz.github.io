@@ -1,19 +1,18 @@
 function togglesidebar() {
-    const toggleSidebar =document.getElementById("sidebar");
+    const sidebarWhole =document.getElementById("sidebar");
     const sidebarButtons = document.querySelectorAll (".sidebar ul li a");
-    const sidebarButtonDesc = document.querySelectorAll (".sidebar ul li a span");
+    const sidebarButtonsAll = document.querySelectorAll (".sidebar ul");
     if (sidebar.style.width === '0px') {
         sidebar.style.width = '230px';
+        sidebar.style.padding = ".4rem .8rem";
         sidebarButtons.style.borderRadius = "50%";
-        sidebarButtonDesc.forEach((span) => {
-            span.style.display = span.style.display === "inline" ? "block" : "inline";
-              });
+        sidebarButtonsAll.style.display = "flex";
     }
     else{
         sidebar.style.width = 0
+        sidebar.style.padding = 0 
         sidebarButtons.style.borderRadius = "0.5rem";
-        sidebarButtonDesc.forEach((span) => {
-        span.style.display = span.style.display === "none" ? "block" : "none";
-          });
+        sidebarButtonsAll.style.display = "none";
+
         }
     }
